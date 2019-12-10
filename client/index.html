@@ -15,17 +15,5 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"
   ></script>
-
-  <script>
-    $(document).ready(() => {
-      console.log("hello");
-
-      $.ajax({
-        method: "GET",
-        url: "/api"
-      }).then(res => {
-        console.log(res);
-      });
-    });
-  </script>
+  <script src="./app.js"></script>
 </html>
